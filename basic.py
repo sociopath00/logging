@@ -21,6 +21,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 
+# Code to test
 a = [1,2,3,4]
 
 logger.debug("The value of a: {}".format(a))
